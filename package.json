@@ -1,0 +1,27 @@
+{
+  "name": "commune-waitlist-page",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "npm run clean && parcel serve ./src/index.html",
+    "build": "npm run clean && parcel build ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aileen Rae",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0",
+    "posthtml-include": "^1.7.2",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "normalize.css": "^8.0.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
